@@ -1,0 +1,94 @@
+.donate{
+    background-color: #FCEDC6;
+}
+
+.donate_text_1{
+    font-family: RobotoBold;
+    font-size: clamp(37px, 3.7vw, 56px);
+}
+
+.donate_text_2{
+    color: #525560;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.donate_btn.btn-primary, .donate_btn.btn-primary:hover, .donate_btn.btn-primary:active, .donate_btn.btn-primary:visited {
+    background-color: #F2C94C !important;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+
+
+
+
+
+
+
+
+.can_text_1{
+    font-family: RobotoBold;
+    font-size: clamp(32px, 3.2vw, 48px);
+}
+
+.can_text_2{
+    color: #525560;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.can_text_3{
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+    border-bottom: 2px solid #F9CF64;
+}
+
+.can_text_4{
+    color: #525560;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+    border-bottom: 1px solid #E5E5E5;
+}
+
+
+
+
+
+
+
+
+
+.use_text_1{
+    font-family: RobotoBold;
+    font-size: clamp(32px, 3.2vw, 48px);
+}
+
+.use_text_2{
+    color: #525560;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .donate_img_1{
+        width: 65%;
+    }
+}
+
+@media(min-width: 768px){
+    .donate_img_1{
+        width: 90%;
+    }
+}

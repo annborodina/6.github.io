@@ -1,0 +1,187 @@
+.contact{
+    background-color: #FCEDC6;
+}
+
+.contact_text_1{
+    font-family: RobotoBold;
+    font-size: clamp(37px, 3.7vw, 56px);
+}
+
+.contact_text_2{
+    color: #525560;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.contact_text_3{
+    font-family: RobotoBold;
+    font-size: clamp(18px, 1.8vw, 28px);
+}
+
+.contact_text_4{
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.contact_text_5{
+    font-family: RobotoBold;
+    font-size: clamp(13px, 1.3vw, 20px);
+}
+
+.contact_text_6{
+    color: #525560;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.line_1{
+    border-top: 1px solid #E5E5E5;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+.form-label{
+    opacity: 0.6;
+    color: #1D2130;
+    font-family: RobotoBold;
+    font-size: clamp(8px, 0.8vw, 12px);
+}
+
+.form-control.form-control-1{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #1D2130;
+    padding-left: 0;
+}
+
+.form-control.form-control-1:focus,
+.form-control.form-control-1:active{
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #1D2130;
+    padding-left: 0;
+}
+
+.form-control.form-control-1::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #1D2130;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+.form-control.form-control-1:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #1D2130;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+.form-control.form-control-1::-ms-input-placeholder { /* Microsoft Edge */
+    color: #1D2130;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.form-control.form-control-2{
+    border: 1px solid black;
+    background-color: white;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: rgba(29, 33, 48, 0.3);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.form-control.form-control-2:focus,
+.form-control.form-control-2:active{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid black;
+    background-color: white;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: rgba(29, 33, 48, 0.3);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.form-control.form-control-2::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(29, 33, 48, 0.3);
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+.form-control.form-control-2:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(29, 33, 48, 0.3);
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+.form-control.form-control-2::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(29, 33, 48, 0.3);
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid gray;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form_btn.btn-primary, .form_btn.btn-primary:hover, .form_btn.btn-primary:active, .form_btn.btn-primary:visited {
+    background-color: #F2C94C !important;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .bi{
+        font-size: 2vw;
+        color: #1D2130;
+    }
+}
+
+@media(max-width: 500px){
+    .bi{
+        font-size: 3vw;
+        color: #1D2130;
+    }
+}
+
+@media(min-width: 768px){
+    .bi{
+        font-size: 1.5vw;
+    }
+}

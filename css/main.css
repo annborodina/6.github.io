@@ -1,0 +1,275 @@
+@font-face{
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: RobotoMedium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face{
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+
+
+
+
+
+
+
+
+.line_2{
+    width: 65px; 
+    border-top: 2px solid #1D2130;
+}
+
+.main_text_1{
+    font-family: RobotoBold;
+    font-size: clamp(11px, 1.1vw, 16px);
+    letter-spacing: 2px;
+}
+
+.form-control{
+    border: 1px solid rgba(235, 240, 249, 0.3);
+    background-color: #0B0706;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: rgba(235, 240, 249, 0.3);
+}
+
+.input-group-text{
+    background-color: white;
+    border-radius: 4px;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.form-control:focus,
+.form-control:active{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid rgba(235, 240, 249, 0.3);
+    background-color: #0B0706;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: rgba(235, 240, 249, 0.3);
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(235, 240, 249, 0.3);
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(235, 240, 249, 0.3);
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(235, 240, 249, 0.3);
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+
+
+
+
+
+
+
+
+.burger{
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-close:focus, .btn-close:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #525560;
+}
+
+.nav_btn_1.btn-primary, .nav_btn_1.btn-primary:hover, .nav_btn_1.btn-primary:active, .nav_btn_1.btn-primary:visited {
+    background-color: #1D2130 !important;
+    border: none;
+    border-radius: 4px;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.hr{
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+.volunteer_img_1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.volunteer_btn_1.btn-primary, .volunteer_btn_1.btn-primary:hover, .volunteer_btn_1.btn-primary:active, .volunteer_btn_1.btn-primary:visited {
+    background-color: #F2C94C !important;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.volunteer_btn_2.btn-primary, .volunteer_btn_2.btn-primary:hover, .volunteer_btn_2.btn-primary:active, .volunteer_btn_2.btn-primary:visited {
+    background-color: white !important;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+
+
+
+
+
+
+
+
+.events_text_1{
+    font-family: RobotoMedium;
+    font-size: clamp(26px, 2.6vw, 40px);
+}
+
+.events_text_2{
+    font-family: RobotoMedium;
+    font-size: clamp(32px, 3.2vw, 48px);
+}
+
+.events_text_3{
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.events_text_4{
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+    letter-spacing: 2px;
+}
+
+.events_text_5{
+    font-family: RobotoBold;
+    font-size: clamp(18px, 1.8vw, 28px);
+}
+
+.events_block{
+    background-color: #F2C94C;
+    border-radius: 20px;
+}
+
+.line_4{
+    border: 1px solid #1D2130;
+    width: 44px;
+}
+
+.events_img_1{
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+}
+
+.footer_text_1{
+    color: white;
+    font-family: RobotoBold;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.footer_text_2{
+    color: white;
+    opacity: 0.78;
+    font-family: RobotoRegular;
+    font-size: clamp(10px, 1vw, 14px);
+}
+
+.footer_text_3{
+    color: white;
+    font-family: RobotoBold;
+    font-size: clamp(26px, 2.6vw, 40px);
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .main_block_1{
+        margin-left: 0px;
+    }
+
+    .volunteer_text_1{
+        font-family: RobotoBold;
+        font-size: clamp(19px, 1.9vw, 48px);
+    }
+
+    .logo_1{
+        width: 20%;
+    }
+
+    .logo_2{
+        width: 100%;
+    }
+}
+
+@media(min-width: 768px){
+    .main_block_1{
+        margin-left: 89px;
+    }
+
+    .volunteer_text_1{
+        font-family: RobotoBold;
+        font-size: clamp(32px, 3.2vw, 48px);
+    }
+
+    .logo_1{
+        width: 10%;
+    }
+
+    .logo_2{
+        width: 75%;
+    }
+}

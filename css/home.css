@@ -1,0 +1,276 @@
+.header_img{
+    width: 100%;
+    height: 100%;
+}
+
+.header_text_2{
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.header_text_3{
+    font-family: RobotoMedium;
+    font-size: clamp(12px, 1.2vw, 18px);
+}
+
+.header_btn.btn-primary, .header_btn.btn-primary:hover, .header_btn.btn-primary:active, .header_btn.btn-primary:visited {
+    background-color: #FFFFFF !important;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.line{ 
+    border-top: 1px solid #E5E5E5;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+.know_text_2{
+    font-family: RobotoBold;
+    font-size: clamp(32px, 3.2vw, 48px);
+}
+
+.know_text_3{
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #525560;
+}
+
+.know_text_4{
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+    letter-spacing: 2px;
+}
+
+.line_3{
+    border: 1px solid #E5E5E5;
+    opacity: 1;
+}
+
+.know_text_4:before, .know_text_4:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+}
+
+.know_btn.btn-primary, .know_btn.btn-primary:hover, .know_btn.btn-primary:active, .know_btn.btn-primary:visited {
+    background-color: #F2C94C !important;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.know_img_2{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.what{
+    background-color: #FCEDC6;
+}
+
+.what_text_2{
+    font-family: RobotoBold;
+    font-size: clamp(32px, 3.2vw, 48px);
+}
+
+.what_text_3{
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #525560;
+}
+
+.what_text_4{
+    font-family: RobotoBold;
+    font-size: clamp(16px, 1.6vw, 24px);
+}
+
+.what_text_5{
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    color: #525560;
+}
+
+.vr{
+    color: #E5E5E5;
+    opacity: 1;
+    width: 2px;
+}
+
+.what_img_2{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.projects_text_2{
+    font-family: RobotoBold;
+    font-size: clamp(32px, 3.2vw, 48px);
+}
+
+.projects_text_3{
+    color: white;
+    font-family: RobotoBold;
+    font-size: clamp(18px, 1.8vw, 28px);
+}
+
+.projects_text_4{
+    color: white;
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.projects_btn.btn-primary, .projects_btn.btn-primary:hover, .projects_btn.btn-primary:active, .projects_btn.btn-primary:visited {
+    background-color: white !important;
+    color: black;
+    border-radius: 4px;
+    border: none;
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.projects_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.spend{
+    background-color: black;
+}
+
+.spend_text_1{
+    font-family: RobotoBold;
+    font-size: clamp(32px, 3.2vw, 48px);
+}
+
+.spend_text_2{
+    font-family: RobotoRegular;
+    font-size: clamp(11px, 1.1vw, 16px);
+    opacity: 0.6;
+}
+
+.spend_text_3{
+    font-family: RobotoMedium;
+    font-size: clamp(11px, 1.1vw, 16px);
+}
+
+.square_1{
+    background-color: #BEF3C0;
+}
+
+.square_2{
+    background-color: #AC94F1;
+}
+
+.square_3{
+    background-color: #FFF0CA;
+}
+
+.square_4{
+    background-color: #F9CF64;
+}
+
+.square_5{
+    background-color: #F38FBF;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .header_block{
+        margin-top: 7.5%;
+    }
+
+    .header_text_1{
+        font-family: RobotoBold;
+        font-size: clamp(30px, 3vw, 64px);
+    }
+
+    .know_img_1{
+        width: 60%;
+    }
+
+    .what_img_1{
+        width: 60%;
+    }
+
+    .square_1, .square_2, .square_3, .square_4, .square_5{
+        width: 2vw;
+        height: 2vw;
+        border-radius: 4px;
+    }
+
+    .spend_img_1{
+        width: 55%;
+    }
+}
+
+@media(min-width: 768px){
+    .header_block{
+        margin-top: 15%;
+    }
+
+    .know_img_1{
+        width: 75%;
+    }
+
+    .what_img_1{
+        width: 75%;
+    }
+
+    .header_text_1{
+        font-family: RobotoBold;
+        font-size: clamp(42px, 4.2vw, 64px);
+    }
+
+    .square_1, .square_2, .square_3, .square_4, .square_5{
+        width: 1.5vw;
+        height: 1.5vw;
+        border-radius: 4px;
+    }
+
+    .spend_img_1{
+        width: 75%;
+    }
+}
